@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "bundles": [
+    {
+      "uri": "lib.utils",
+      "pkg": "me.dahei.smallreact.lib.utils"
+    },
+    {
+      "uri": "main",
+      "pkg": "me.dahei.smallreact.app.main"
+    },
+    {
+      "uri": "product",
+      "pkg": "me.dahei.smallreact.app.product",
+      "rules": {
+        "product": ".ProductActivity"
+      }
+    }
+  ]
+}
+

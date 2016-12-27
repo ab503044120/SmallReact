@@ -1,0 +1,17 @@
+{
+  "name": "smallreact",
+  "version": "1.0.0",
+  "description": "ss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "build-a":"node node_modules/react-native/local-cli/cli.js bundle --platform android --dev false --entry-file index.android.js  --bundle-output ./SmallReactThree/app/src/main/assets/index.android.bundle  --assets-dest ./SmallReactThree/app/src/main/res/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-native": "^0.39.2"
+  },
+  "devDependencies": {}
+}
